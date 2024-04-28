@@ -5,7 +5,7 @@ import { IconCari } from '../../../../assets/icons'
 import { Jarak, Tombol } from '../../kecil'
 import { useNavigation } from '@react-navigation/native';
 import { useDispatch } from 'react-redux';
-import { saveKeywordJersey } from '../../../reducers';
+ 
 
 export default function HeaderComponent({ page }) {
     const [search, setSearch] = useState('');

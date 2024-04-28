@@ -4,7 +4,7 @@ import { colors, fonts } from '../../utils';
 import { BannerSlider, HeaderComponent, Jarak, ListJerseys, ListLiga, Tombol } from '../../components';
 import { useIsFocused } from '@react-navigation/native';
 import { useDispatch } from 'react-redux';
-import { getLiga, getLimitJersey } from '../../reducers';
+ 
 
 export default function MainMenu() {
     const dispatch = useDispatch();

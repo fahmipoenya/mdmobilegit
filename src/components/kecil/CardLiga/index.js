@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, Image, TouchableOpacity } from 'react-native';
 import { colors, responsiveHeight, responsiveWidth } from '../../../utils';
-import { getJerseyByLiga } from '../../../reducers';
 import { useNavigation } from '@react-navigation/native';
 import { useDispatch } from 'react-redux';
 
